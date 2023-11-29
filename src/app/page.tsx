@@ -10,18 +10,17 @@ export default function Home() {
       <MaxWidthWrapper className='mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center'>
         <div className='mx-auto mb-4 flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-7 py-2 shadow-md backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50'>
           <p className='text-sm font-semibold text-gray-700'>
-            Quill is now public!
+            Publicado!
           </p>
         </div>
         <h1 className='max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl'>
-          Chat with your{' '}
-          <span className='text-blue-600'>documents</span>{' '}
-          in seconds.
+          Habla con tus {' '}
+          <span className='text-blue-600'>documentos</span>{' '}
+          en segundos.
         </h1>
         <p className='mt-5 max-w-prose text-zinc-700 sm:text-lg'>
-          Quill allows you to have conversations with any
-          PDF document. Simply upload your file and start
-          asking questions right away.
+          Esta página permite que tengas una conversación con cualquier documento pdf.
+          Simplemente sube tu archivo y empieza a hacer preguntas
         </p>
 
         <Link
@@ -31,7 +30,7 @@ export default function Home() {
           })}
           href='/dashboard'
           target='_blank'>
-          Get started{' '}
+          Iniciemos {' '}
           <ArrowRight className='ml-2 h-5 w-5' />
         </Link>
       </MaxWidthWrapper>
@@ -87,11 +86,10 @@ export default function Home() {
         <div className='mb-12 px-6 lg:px-8'>
           <div className='mx-auto max-w-2xl sm:text-center'>
             <h2 className='mt-2 font-bold text-4xl text-gray-900 sm:text-5xl'>
-              Start chatting in minutes
+              Empieza una conversación en minutos
             </h2>
             <p className='mt-4 text-lg text-gray-600'>
-              Chatting to your PDF files has never been
-              easier than with Quill.
+              Hacer preguntas a tu PDF nunca ha sido tan facil como con esta web.
             </p>
           </div>
         </div>
@@ -101,18 +99,17 @@ export default function Home() {
           <li className='md:flex-1'>
             <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
               <span className='text-sm font-medium text-blue-600'>
-                Step 1
+                paso 1
               </span>
               <span className='text-xl font-semibold'>
-                Sign up for an account
+                Crea una cuenta
               </span>
               <span className='mt-2 text-zinc-700'>
-                Either starting out with a free plan or
-                choose our{' '}
+                Ya sea con un plan gratuito o usando nuestro {' '}
                 <Link
                   href='/pricing'
                   className='text-blue-700 underline underline-offset-2'>
-                  pro plan
+                  Plan Pro
                 </Link>
                 .
               </span>
@@ -121,28 +118,26 @@ export default function Home() {
           <li className='md:flex-1'>
             <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
               <span className='text-sm font-medium text-blue-600'>
-                Step 2
+                Paso 2
               </span>
               <span className='text-xl font-semibold'>
-                Upload your PDF file
+                Sube tu archivo PDF
               </span>
               <span className='mt-2 text-zinc-700'>
-                We&apos;ll process your file and make it
-                ready for you to chat with.
+                Nosotros procesaremos tu archivo y lo tendremos listo para que empieces a conversar con el.
               </span>
             </div>
           </li>
           <li className='md:flex-1'>
             <div className='flex flex-col space-y-2 border-l-4 border-zinc-300 py-2 pl-4 md:border-l-0 md:border-t-2 md:pb-0 md:pl-0 md:pt-4'>
               <span className='text-sm font-medium text-blue-600'>
-                Step 3
+                Paso 3
               </span>
               <span className='text-xl font-semibold'>
-                Start asking questions
+                Empieza a hacer preguntas
               </span>
               <span className='mt-2 text-zinc-700'>
-                It&apos;s that simple. Try out Quill today -
-                it really takes less than a minute.
+                Es asi de simple, realmente lleva menos de un minuto.
               </span>
             </div>
           </li>
